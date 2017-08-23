@@ -13,9 +13,7 @@ class CurrencyRatesViewController: CoreDataTableViewController {
     @IBOutlet weak var setBaseCurrency: UIBarButtonItem!
     
     let container = CoreDataStack.shared.persistentContainer
-   
-    // MARK: Life Cycle
-
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         

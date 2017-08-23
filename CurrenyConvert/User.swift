@@ -17,7 +17,7 @@ class User : NSObject {
     // Can't init is singleton
     private override init() { }
     
-    static let apiID = "c9731aacdfdf4253b4f7995fb929cc4b"
+    static let apiID : String = "" //ENTER YOUR API KEY
     static let shared = User()
     
     func getDataTask(_ url : String , _ completionClosure : @escaping ((_ serialisedJSON : [String : AnyObject]? , _ error : String?) -> Void)) {
@@ -61,7 +61,7 @@ class User : NSObject {
                 completionClosure(nil, error, false)
                 return
             }
-            //print(currencyData)
+            
             completionClosure(currencyData, nil, true)
         }
     }
