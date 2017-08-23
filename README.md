@@ -8,3 +8,5 @@ Don’t have internet connection!! Don’t worry, it remembers the conversion ra
 Fetching and saving of data is performed on the background thread, without disturbing the user interface.
 
 Want to refresh rates, UITable pull to refresh implemented.
+
+*** DO ADD YOUR API KEY TO USER.SWIFT ***
